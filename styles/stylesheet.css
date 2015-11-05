@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h1{
+    color:mediumpurple;font-size: 4em;text-align:center;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.nav li{
+    float:left;display:block;width: 14%;height:30px;line-height:30px;background-color:mediumpurple;
+    border-right: 1px solid white;text-align: center;color: white;
+}
+
+a:link{
+    color: white;text-decoration:none;
+}
+
+a:hover{
+    color: aliceblue;text-decoration:none;
+}
+
+a:visited{
+    color: blanchedalmond;text-decoration:none;
+}
+
+a:active{
+    color: brown;text-decoration:none;
+}
+
+aside{
+    float:left;width: 30%;height:500px;background-color: blueviolet;text-align: center;
+}
+
+aside ul{
+    text-align: center;margin-top: 60px;
+}
+
+aside ul li{
+    margin-bottom: 5px;
+}
+article{
+    float:left;width: 68%;height:500px;background-color: darkgray;text-align: center;border-right: 1px solid white;
+}
+
+article img{
+    margin: 15px 0;
+}
+
+section{
+    width: 400px;height: 300px; margin: auto;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+footer{
+    clear:both;text-align: center;height: 45px;padding: 15px;
+}
+
+footer ul li{
+   display:inline;margin: 15px;
+
+}
