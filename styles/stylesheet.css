@@ -23,7 +23,7 @@ a:link{
 }
 
 a:hover{
-    color: aliceblue;text-decoration:none;
+    color: aliceblue;text-decoration:underline;
 }
 
 a:visited{
@@ -66,4 +66,9 @@ footer{
 footer ul li{
    display:inline;margin: 15px;
 
+}
+
+.stirf{
+    width: 350px;
+    height: 280px;
 }
